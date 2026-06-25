@@ -2,17 +2,11 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/services/
 
-- My First Group:
-    - My First Service:
-        href: http://localhost/
-        description: Homepage is awesome
+- Home Lab:
+    - Homepage:
+        href: http://wowehome:3000
+        description: Homelab dashboard for all services and links to other services.
 
-- My Second Group:
-    - My Second Service:
-        href: http://localhost/
-        description: Homepage is the best
-
-- My Third Group:
-    - My Third Service:
-        href: http://localhost/
-        description: Homepage is 😎
+    - n8n:
+        href: http://wowehome:5678
+        description: Workflow automation tool for automating tasks and processes.
