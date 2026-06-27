@@ -6,7 +6,7 @@ services:
     ports:
       - ${HOMEPAGE_PORT}:${HOMEPAGE_PORT}
     volumes:
-      - ../../config/homepage:/app/config
+      - ../../configs/homepage:/app/config
       - /var/run/docker.sock:/var/run/docker.sock:ro
     environment:
       HOMEPAGE_ALLOWED_HOSTS: ${SERVER_IP}:${HOMEPAGE_PORT},${SERVER_HOST}:${HOMEPAGE_PORT}
