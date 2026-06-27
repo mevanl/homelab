@@ -5,14 +5,13 @@
 - Developer:
     - Github:
         - abbr: GH
-          href: https://github.com/
+          icon: github.png
+          href: https://github.com/mevanl
 
-- Social:
-    - Reddit:
-        - abbr: RE
-          href: https://reddit.com/
+
 
 - Entertainment:
     - YouTube:
         - abbr: YT
+          icon: youtube.png
           href: https://youtube.com/

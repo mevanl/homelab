@@ -5,8 +5,10 @@
 - Home Lab:
     - Homepage:
         href: http://wowehome:3000
+        icon: homepage.png
         description: Homelab dashboard for all services and links to other services.
 
     - n8n:
         href: http://wowehome:5678
+        icon: n8n.png
         description: Workflow automation tool for automating tasks and processes.
