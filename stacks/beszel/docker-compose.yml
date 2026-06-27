@@ -1,7 +1,10 @@
 services:
   beszel:
+
     image: henrygd/beszel:latest
+
     container_name: beszel
+
     restart: unless-stopped
 
     ports:
@@ -10,9 +13,12 @@ services:
     volumes:
       - ../../data/beszel:/beszel_data
 
+
   beszel-agent:
     image: henrygd/beszel-agent:latest
+    
     container_name: beszel-agent
+
     restart: unless-stopped
 
     network_mode: host
@@ -25,4 +31,4 @@ services:
       LISTEN: ${BESZEL_AGENT_PORT}
       KEY: ${BESZEL_AGENT_KEY}
       TOKEN: ${BESZEL_AGENT_TOKEN}
-      HUB_URL: http://${SERVER_NAME}:${BESZEL_PORT}
+      HUB_URL: http://${SERVER_HOST}:${BESZEL_PORT}
