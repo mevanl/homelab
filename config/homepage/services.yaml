@@ -6,9 +6,14 @@
     - Homepage:
         href: http://wowehome:3000
         icon: homepage.png
-        description: Homelab dashboard for all services and links to other services.
+        description: Dashboard for all services and links to other services.
 
     - n8n:
         href: http://wowehome:5678
         icon: n8n.png
         description: Workflow automation tool for automating tasks and processes.
+    
+    - Beszel:
+        href: http://wowehome:8090
+        icon: beszel.png
+        description: Simple, lightweight, server monitoring tool.
